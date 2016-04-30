@@ -1,0 +1,40 @@
+.stick {
+  background: #2d2d2d;
+  border: 2px solid #626262;
+  border-radius: 50%;
+  bottom: 10%;
+  box-sizing: border-box;
+  height: 110px;
+  position: absolute;
+  right: 10%;
+  width: 110px;
+}
+.stick__root {
+  border: 2px solid #626262;
+  border-radius: 50%;
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+}
+.stick__control {
+  cursor: move;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.stick__control:after {
+  background: rgba(98, 98, 98, .85);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: '';
+  height: 56px;
+  left: -28px;
+  position: absolute;
+  top: -28px;
+  width: 56px;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "touch-stick",
+  "version": "1.0.0",
+  "description": "Touch Stick for gaming in the Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Peter Dmitrienko",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
+}

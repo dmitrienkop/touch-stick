@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="HandheldFriendly" content="true"/>
+
+  <title>Touch Stick Demo</title>
+
+  <!-- stick -->
+  <link rel="stylesheet" href="dist/stick.css">
+  <script src="dist/stick.js"></script>
+
+  <!-- demo -->
+  <link rel="stylesheet" href="demo/demo.css">
+  <script src="demo/demo.js"></script>
+
+</head>
+<body class="demo">
+
+  <!-- Touch Stick elements -->
+  <div class="stick" id="stick">
+    <div class="stick__root" id="stickRoot">
+      <div class="stick__control" id="stickControl"></div>
+    </div>
+  </div>
+
+  <!-- Touch stick demo circle -->
+  <div class="circle">
+    <span class="circle__label">0</span>
+    <div class="circle__directions">
+      <div class="circle__direction _top"></div>
+      <div class="circle__direction _right"></div>
+      <div class="circle__direction _bottom"></div>
+      <div class="circle__direction _left"></div>
+    </div>
+  </div>
+
+  <span class="info">
+    Open this demo in your mobile device browser <br> or Chrome with Dev Tools + device mode (&#8984; + &#8679 + M).
+  </span>
+
+</body>
+</html>
